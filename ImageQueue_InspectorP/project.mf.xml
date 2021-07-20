@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <manifest>
     <application name="ImageQueue_InspectorP">
         <crown name="ImageQueue_InspectorP">
@@ -7,12 +7,9 @@
         </crown>
         <meta key="author">AppSpace Sample</meta>
         <meta key="version">2.5.0</meta>
-        <meta key="licensed">false</meta>
         <meta key="priority">low</meta>
         <meta key="copy-protected">false</meta>
         <meta key="read-protected">false</meta>
-        <entry path="scripts" default="ImageQueue.lua">
-            <file type="text/x-lua">ImageQueue.lua</file>
-        </entry>
+        <entry default="ImageQueue.lua" path="scripts"/>
     </application>
 </manifest>
