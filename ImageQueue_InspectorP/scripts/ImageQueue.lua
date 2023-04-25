@@ -31,6 +31,8 @@ local function main()
 end
 Script.register('Engine.OnStarted', main)
 
+---@param im Image
+---@param sensorData SensorData
 local function processImage(im, sensorData)
   previousTic = tic -- To remember timer value from previous acquisition
   tic = DateTime.getTimestamp()
